@@ -1,0 +1,84 @@
+.rainbow{
+    animation: rainbow 2.5s linear;
+    animation-iteration-count: infinite;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+body{
+    background-color: rgb(52, 48, 48);
+}
+.in1 a{
+    text-decoration: none;
+    font-size: 70px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    color: blueviolet;
+    margin-right: 100px;
+}
+.in1 img{
+    width: 200px;
+}
+.button{
+    border-radius: 20px;
+}
+.in2 a{
+    text-decoration: none;
+    font-size: 70px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    color: blueviolet;
+    margin-right: 100px;
+}
+.in2 img{
+    width: 300px;
+}
+.button{
+    border-radius: 20px;
+}
+@keyframes rainbow{
+    100%,0%{
+        color: rgb(255,0,0);
+    }
+    8%{
+        color: rgb(255,127,0);
+    }
+    16%{
+        color: rgb(255,255,0);
+    }
+    25%{
+        color: rgb(127,255,0);
+    }
+    33%{
+        color: rgb(0,255,0);
+    }
+    41%{
+        color: rgb(0,255,127);
+    }
+    50%{
+        color: rgb(0,255,255);
+    }
+    58%{
+        color: rgb(0,127,255);
+    }
+    66%{
+        color: rgb(0,0,255);
+    }
+    75%{
+        color: rgb(127,0,255);
+    }
+    83%{
+        color: rgb(255,0,255);
+    }
+    91%{
+        color: rgb(255,0,127);
+    }
+}
